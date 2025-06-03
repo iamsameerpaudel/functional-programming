@@ -48,7 +48,7 @@ array.push(4)
 
 ## Concept of immutability in functional programming
 
-> It says that we should not mutate an array or an object, instead we should create a copy with the intended changes
+> It says that we must not mutate an array or an object, instead we should create a copy with the intended changes
 
 ```TS
 const cartProducts = [
@@ -77,7 +77,7 @@ console.log(total)
 ```
 > This is not the intended result. 
 
-> Mutating arrays or objects can bring about unintended results. It's best to not mutate them and rather create a copy with the changes we need
+> Mutating arrays or objects can bring about unintended results. We must not mutate them but create a copy with the changes we need
 
 > The above code be made better:
 
