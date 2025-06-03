@@ -110,4 +110,10 @@ console.log(total)
 //Output: 670
 ```
 
-> Here we created a new array with the changes that we needed and we still have our original array. This is a far better way of modifying objects and arrays.
+## Why?
+
+> Mutability can cause unintended side effects because it makes changes directly in the memory reference.
+
+> It can cause errors in change detection as since the values are not changing the variables may not change when making update to the array / object because the change is being made in the memory not in the variable 
+
+> In library or frameworks like React where state management is crucial, this mutability can cause errors in state management as we need to know about the changes.
